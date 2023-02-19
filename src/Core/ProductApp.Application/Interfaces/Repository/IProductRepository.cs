@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProductApp.Application.Interfaces.Repository
 {
-    public interface IProductRepository : IGenericRepository<Product>
+    public interface IProductRepository : IGenericRepositoryAsync<Product>
     {
 
     }
